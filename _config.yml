@@ -22,6 +22,8 @@ url: "https://yjc2021.github.io/" #GitBlog 호스트 주소
 #github_username: username
 minimal_mistakes_skin: default
 search: true
+logo: "/assets/images/logo.png"
+masthead_title: "Doodler의 개발 블로그"
 
 # Build settings
 markdown: kramdown
@@ -59,7 +61,7 @@ plugins:
 # Site Author
 author:
   name   : "최용재"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "/assets/images/bio-pic.jpg"
   bio    : "재밌는 개발생활을 위해 공부하는 개발자입니다. 함께 공부해요!"
   links:
     - label: "Email"
@@ -104,6 +106,7 @@ defaults:
       comments: true
       share: true
       related: true
+      showdate: true
   # _pages
   - scope:
       path: "_pages"
